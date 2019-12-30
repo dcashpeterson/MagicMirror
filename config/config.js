@@ -100,6 +100,18 @@ var config = {
 
 			}
 		},
+	{
+module: 'MMM-3Day-Forecast',
+position: 'bottom_center',
+config: {
+	api_key:'4b4f41a9677d457784cba2b9c2a6e708',
+	units: 'I',
+	lon: '-71.061740',
+	lat: '42.25719'
+}
+
+
+		},
 		{
 			module: 'MMM-BackgroundSlideshow',
 			position: 'fullscreen_below',
