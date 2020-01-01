@@ -110,7 +110,8 @@ var config = {
 			config: {
 			  imagePaths: ['modules/MMM-BackgroundSlideshow/exampleImages/'],
 			  transitionImages: true,
-			  randomizeImageOrder: true
+			  randomizeImageOrder: true,
+			  validImageFileExtention: "jpg,gif,png",
 			}
 		  },
 	]
