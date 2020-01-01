@@ -59,9 +59,9 @@ var config = {
 				]
 			}
 		},
-
-
-
+		
+			
+	
 		{
 			module: "currentweather",
 			position: "top_right",
@@ -104,17 +104,6 @@ var config = {
 
 
 		},
-		{
-			module: 'MMM-BackgroundSlideshow',
-			position: 'fullscreen_below',
-			config: {
-				imagePaths: ['modules/MMM-BackgroundSlideshow/exampleImages/'],
-				transitionImages: true,
-				randomizeImageOrder: true
-			}
-		}
-
-
 	]
 
 };
