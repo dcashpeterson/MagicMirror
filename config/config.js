@@ -114,6 +114,22 @@ var config = {
 			  validImageFileExtention: "jpg,gif,png",
 			}
 		  },
+		  {
+            module: 'MMM-OnScreenMenu',
+            position: 'bottom_right',
+            /* Valid positions: 'top_right', 'top_left', 'bottom_right', 'bottom_left' */
+            config: {
+                touchMode: true,
+				enableKeyboard: true,
+				menuitems:{
+					monitorOff: { title: "Turn Off Monitor", icon: "television", source: "SERVER" },
+					refresh: { title: "Refresh", icon: "recycle", source: "LOCAL" },
+					restart: { title: "Restart MagicMirror", icon: "refresh", source: "ALL" },
+					reboot: { title: "Reboot", icon: "spinner" },
+					shutdown: { title: "Shutdown", icon: "power-off" }
+				}
+            }
+        }
 	]
 
 };
