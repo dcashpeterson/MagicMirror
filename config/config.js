@@ -76,34 +76,8 @@ var config = {
 
 			}
 		},
-		{
-			module: "weatherforecast",
-			position: "bottom_right",
-			header: "Weather Forecast",
-			config: {
-				location: "Boston, Massachusetts",
-				locationID: "4943629",  //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				appid: "ec9661e5df00c8abc319f91d8bf3cc6f",
-				fade: false,
-				colored: "true",
-				roundTemp: true,
-				maxNumberOfDays: 3,
-				tableClass: "medium"
-
-			}
-		},
-		{
-			module: 'MMM-3Day-Forecast',
-			position: 'bottom_center',
-			config: {
-				api_key: '4b4f41a9677d457784cba2b9c2a6e708',
-				units: 'I',
-				lon: '-71.061740',
-				lat: '42.25719'
-			}
-
-
-		},
+		
+		
 		{
 			module: 'MMM-BackgroundSlideshow',
 			position: 'fullscreen_below',
